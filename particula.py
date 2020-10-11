@@ -1,8 +1,8 @@
 from algoritmos import distancia_euclidiana
 
 class Particula:
-    def __init__(self, id=0, origen_x=0, origen_y=0, destino_x=0, destino_y=0, velocidad=0, red=0, green=0, blue=0):
-        self.__id = id
+    def __init__(self, iD=0, origen_x=0, origen_y=0, destino_x=0, destino_y=0, velocidad=0, red=0, green=0, blue=0):
+        self.__id = iD
         self.__origen_x = origen_x
         self.__origen_y = origen_y
         self.__destino_x = destino_x
